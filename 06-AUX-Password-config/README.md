@@ -108,19 +108,9 @@ line aux 0
  login
 ```
 
----
+# 🌐 Topology Screenshot
 
-# 🌐 Packet Tracer Topology
-
-```text
-                Console Cable
-     +-------------------------------+
-     |                               |
-+-----------+                 +---------------+
-|    PC1    |-----------------|   Router R1   |
-| (Admin)   |                 |               |
-+-----------+                 +---------------+
-```
+![SSH Topology](topology1.png)
 
 **Note:** Packet Tracer does **not** simulate modem connections through the AUX port. Therefore, you use the **Console cable** to configure the AUX password from the router CLI. The AUX password protects the AUX line configuration, even though you are not connecting through the AUX port in Packet Tracer.
 
